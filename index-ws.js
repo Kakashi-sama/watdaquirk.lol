@@ -21,7 +21,7 @@ server.listen(3000, function() {
     console.log('Server started on PORT 3000');
 });
 
-// YOu would like to shutdown the db as well when the server nis closed
+// YOu would like to shutdown the db as well when the server is closed
 process.on('SIGINT', ()=>{
     console.log('sigint');
 
